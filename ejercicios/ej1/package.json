@@ -1,0 +1,13 @@
+{
+  "name": "00_tema_introduccion",
+  "version": "1.0.0",
+  "description": "Test de edad y hora",
+  "license": "ISC",
+  "author": "JavierCL",
+  "type": "module:",
+  "main": "ejercicio1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ejercicio1.js"
+  }
+}
