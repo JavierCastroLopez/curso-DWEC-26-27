@@ -26,6 +26,7 @@ const orderNumber = (num1, num2) => num1 > num2 ? [num1, num2] : [num2, num1]
 //isNaN -> is Not a Number
 //buscar como truncar un numero a 2 decimales
 
+/*
 function celsiusToKelvin(celsius) {
     let output = 0;
     if (celsius >= -273.15 && !isNaN(celsius)) {
@@ -35,5 +36,6 @@ function celsiusToKelvin(celsius) {
     }
     return output
 }
+*/
 
 const celsiusToKelvin = (c) => (c >= -273.15 && !isNaN(c))? Number((c + 273.15).toFixed(2)):NaN;
