@@ -9,8 +9,15 @@
 </head>
 
 <body>
-  <div id="app"></div>
-  <script type="module" src="/src/main.ts"></script>
+  <section class="controls">
+    <input id="search" type="search" placeholder="Buscar un producto">
+    <label>
+      <input id="only-in-stock" type="checkbox" />
+    </label>
+    <button id="btn-clicks" type="button">clicks: 0</button>
+  </section>
+  <ul id="list" class="list"></ul>
+  <script type="module" src="/src/exercise/zzz-dom/index.ts"></script>
 </body>
 
 </html>
